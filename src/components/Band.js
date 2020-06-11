@@ -4,7 +4,7 @@ class Band extends Component {
 
   handleOnClick = event => {
     event.preventDefault();
-    this.props.delete();
+    this.props.delete(this.props.id);
   }
 
   render() {
